@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height:auto;
+    object-fit: cover;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.rutas {
+    justify-content: end;
+    margin-left: 22%;
+}
+
+.rutas a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.rutas a:hover {
+    color: rgb(202, 43, 136);
+}
+
+.rutass {
+    justify-content: end;
+    margin-left: 20%; 
+}
+
+.rutass a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.rutass a:hover {
+    color: rgb(202, 43, 136);
+}
+
+@media (max-width: 600px) {
+    .rutas {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 40%;
+    }
+
+    .rutass {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .der {
+        margin-left: 8%; 
+    }
+
+    .rutas a {
+        margin-top: 10%;
+    }
+
+    .rutass a {
+        margin-top: 10%;
+    }
+}
+
+.link {
+    font-size: xx-large;
+}
+
+.der {
+    display: flex;
+    margin-left: 8%; 
+}
+
+
+.primero {
+    background-color: rgba(174,45,93,255);
+    color: white;
+        
+}
+
+.primero p {
+    max-width: 80%; 
+    margin: 0 auto; 
+    line-height: 1.6; 
+}
+
+.linea-blanca {
+    width: 315px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 1.5rem auto;
+}
+
+.segundo {
+    background-color: rgba(151,162,104,255);
+    color: white;
+}
+
+.segundo p {
+    max-width: 80%; 
+    margin: 0 auto; 
+    line-height: 1.6; 
+}
+
+.img1{
+    width: 100%;
+}
+
+.fondo {
+    background-color: rgb(222, 221, 221);
+}
+
